@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header, .footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.main {
+  display: flex;              /* usamos flexbox */
+  gap: 1rem;                  /* separación entre columnas */
+  padding: 1rem;
+}
+
+.main__column {
+  flex: 1;                    /* todas las columnas ocupan el mismo espacio */
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+}
